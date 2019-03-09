@@ -21,7 +21,6 @@ namespace Josephus
 
         public static void LastPersonStanding(List<int> people, int killingInterval)
         {
-            //int index = 1;
             do
             {
                 int killingCounter = 1;
@@ -35,7 +34,6 @@ namespace Josephus
                     }
                     else
                     {
-                        //int x = people.Count - 1;
                         people.Add(people[0]);
                         people.RemoveAt(0);
                         killingCounter++;
